@@ -1,0 +1,44 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio / Rider files
+.vs/
+.idea/
+*.user
+*.suo
+
+# Rider
+*.sln.iml
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+*.coverage
+*.coveragexml
+
+# Publish output
+[Pp]ublish/
+*.pubxml
+*.pubxml.user
+
+# NuGet
+*.nupkg
+**/packages/*
+!**/packages/build/
+
+# Local secrets / environment overrides
+appsettings.*.local.json
+*.env
+.env
+
+# EF Core
+*.db
+*.sqlite
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
